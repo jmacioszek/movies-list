@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
+import MoviesList from './src/scenes/movies-list';
 import reducers from './src/state/reducers';
-import sagas from './src/saga/saga';
+import sagas from './src/saga';
 
 import createSagaMiddleware from 'redux-saga';
 
@@ -15,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <View />
+        <MoviesList />
       </Provider>
     );
   }
