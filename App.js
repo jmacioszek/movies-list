@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
-import { createStore } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import reducers from './src/state/reducers';
+import sagas from './src/saga/saga';
 
-const store = createStore(reducers);
+import createSagaMiddleware from 'redux-saga';
+
+const sagaMiddleware = createSagaMiddleware();
+const store = createStore(reducers, applyMiddleware(sagaMiddleware));
+
+sagaMiddleware.run(sagas);
 
 class App extends Component {
   render() {
