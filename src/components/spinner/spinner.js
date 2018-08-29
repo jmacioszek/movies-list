@@ -20,7 +20,7 @@ const Spinner = ({ size, color }) => (
 
 Spinner.propTypes = {
   size: PropTypes.oneOf(['large', 'small']),
-  color: PropTypes.strin,
+  color: PropTypes.string,
 };
 
 Spinner.defaultProps = {

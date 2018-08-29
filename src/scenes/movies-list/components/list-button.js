@@ -7,6 +7,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderColor: 'grey',
     width: '100%',
+    paddingVertical: 24,
   },
   title: {
     fontSize: 18,
@@ -18,6 +19,7 @@ const styles = StyleSheet.create({
   },
   container: {
     flexDirection: 'row',
+    justifyContent: 'space-between',
   },
 });
 
