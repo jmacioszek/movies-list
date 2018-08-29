@@ -1404,6 +1404,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macioszek.movies-list-com.macioszek.movies-list";
 				PRODUCT_NAME = MoviesList;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1427,6 +1428,7 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macioszek.movies-list-com.macioszek.movies-list";
 				PRODUCT_NAME = MoviesList;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1459,7 +1461,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MoviesList-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macioszek.movies-list";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1494,7 +1496,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.MoviesList-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.macioszek.movies-list";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;

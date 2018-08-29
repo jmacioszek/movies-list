@@ -4,7 +4,7 @@ const name = 'moviesList';
 
 const types = createActionTypes(
   {
-    async: ['FETCH_MOVIES'],
+    async: ['FETCH_MOVIES', 'FETCH_COMMENTS'],
   },
   name,
 );
