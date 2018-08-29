@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { View, ActivityIndicator } from 'react-native';
 import { connect } from 'react-redux';
 import BackButton from './components/back-button';
 import Comments from './comments';
