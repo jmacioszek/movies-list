@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>960297175722-vn2i17s6r2ldedbqtk7v39s99qs2ft3b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.960297175722-vn2i17s6r2ldedbqtk7v39s99qs2ft3b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCR8V8p8dd4SGnYQFJpt2lf-siebt9VSk8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>960297175722</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.macioszek.movies-list</string>
+	<key>PROJECT_ID</key>
+	<string>movies-list-47819</string>
+	<key>STORAGE_BUCKET</key>
+	<string>movies-list-47819.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:960297175722:ios:18dea9b1c15de189</string>
+	<key>DATABASE_URL</key-
+	<string>https://movies-list-47819.firebaseio.com</string>
+</dict>
+</plist>
